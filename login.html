@@ -7,9 +7,30 @@
     </head>
     <body class="bg-secondary"> 
 
-        <nav class="navbar navbar-dark bg-primary"> 
-            <div class="container-fluid"> 
-                <span class="navbar-brand mb-2 h1">The Holiday Shop</span> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+        
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <!--img src="logo.png" alt="Logo" width="40" height="40" class="me-2" logo de la tienda--> 
+                    <span>The Holiday Shop</span>
+                </a>
+            
+                <!-- Menú de navegación entre vistas -->
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Menú Navegacion opciones lado derecho -->
+                <div class="d-flex align-items-center">
+                    <a href="login.html" class="nav-link text-white me-2">Iniciar sesión</a>
+                    <a href="registro.html" class="nav-link text-white">Registrarse</a>
+                    <a href="carrito.html" class="btn btn-light ms-3">🛒 (0)</a>
+                </div>
             </div>
         </nav>
 
