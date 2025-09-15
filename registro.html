@@ -34,45 +34,48 @@
         </nav>
 
         <div class="container mt-5">  
-            <div class="row"> 
-                <div class="col-sm-6 ms-auto"> <!-- col-sm-6 = columna-->
-                    <form action="Home.html"> 
+            <div class="row justify-content-center"> 
+                <div class="col-sm-6"> <!-- col-sm-6 = columna-->
+                    <div class="card shadow p-4">
+                        <h3 class="mb-4 text-center">Registro</h3>
+                        <form action="Home.html"> 
                         
-                        <div class="mt-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" required>
-                            <div class="invalid-feedback">
-                                Por favor, ingresa tu nombre.
+                            <div class="mt-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                                <div class="invalid-feedback">
+                                    Por favor, ingresa tu nombre.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="mt-3">
-                            <label for="email" class="form-label">Correo electrónico</label>
-                            <input type="email" class="form-control" id="email" required>
-                            <div class="invalid-feedback">
-                                Ingresa un correo electrónico válido.
+                            <div class="mt-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                                <div class="invalid-feedback">
+                                    Ingresa un correo electrónico válido.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="mt-3">
-                            <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password" required>
-                            <div class="invalid-feedback">
-                                Ingresa tu contraseña.
+                            <div class="mt-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" required>
+                                <div class="invalid-feedback">
+                                    Ingresa tu contraseña.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="mt-3">
-                            <label for="password" class="form-label">Confirmar Contraseña</label>
-                            <input type="password" class="form-control" id="password" required>
-                            <div class="invalid-feedback">
-                                Por favor, confirma tu contraseña.
+                            <div class="mt-3">
+                                <label for="password" class="form-label">Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="password" required>
+                                <div class="invalid-feedback">
+                                    Por favor, confirma tu contraseña.
+                                </div>
                             </div>
-                        </div>
 
-                        <button class="btn btn-primary mt-4" type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+                            <button class="btn btn-primary mt-4" type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
                     
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
