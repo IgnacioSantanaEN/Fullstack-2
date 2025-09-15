@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Inicio Sesión</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body class="bg-secondary">
         
         <!-- Barra de navegacion -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid"> <!-- Ocupe todo el ancho-->
+            <div class="container-fluid">
         
-                <a class="navbar-brand d-flex align-items-center" href="#"> <!-- es un enlace hacia el menu principal de la pagina-->
+                <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="imagenes/Logo Tienda.jpg" alt="Logo" width="40" height="40" class="me-2"> 
                     <span>The Holiday Shop</span>
                 </a>
@@ -19,11 +19,55 @@
                 <!-- Menú de navegación -->
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
+            </div>
+        </nav>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 container-fluid">
+                    <h3 class="text-white mb-4">Producto 1</h3>
+                    <div class="card mb-3">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4">
+                                <img src="imagenes/GalletaCracker.jpeg" class="img-fluid rounded-start" alt="Galleta Cracker">
+                            </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Galleta Cracker</h5>
+                                        <p class="card-text">Precio: $4.000</p>
+                                        <button class="btn btn-sm btn-primary">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 container-fluid">
+                    <h3 class="text-white mb-4">Producto 2</h3>
+                    <div class="card mb-3">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4">
+                                <img src="imagenes/FracChocolate.jpeg" class="img-fluid rounded-start" alt="Galleta Cracker">
+                            </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Galleta Frac</h5>
+                                        <p class="card-text">Precio: $1.000</p>
+                                        <button class="btn btn-sm btn-primary">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
